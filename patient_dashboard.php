@@ -64,7 +64,7 @@ include 'includes/header.php';
     <div class="col-md-3 mb-4">
         <div class="list-group shadow-sm">
             <a href="patient_dashboard.php" class="list-group-item list-group-item-action active">My Dashboard</a>
-            <a href="index.php#premium" class="list-group-item list-group-item-action text-warning fw-bold">Go Premium ⭐</a>
+            <a href="premium.php" class="list-group-item list-group-item-action text-warning fw-bold">Go Premium ⭐</a>
             <a href="logout.php" class="list-group-item list-group-item-action text-danger fw-bold">Logout</a>
         </div>
 
@@ -82,7 +82,7 @@ include 'includes/header.php';
                 <h5 class="alert-heading mb-1 fw-bold">Need help faster?</h5>
                 <p class="mb-0">Upgrade to <strong>Premium</strong> for priority matching with available doctors 24/7.</p>
             </div>
-            <a href="index.php#premium" class="btn btn-warning fw-bold ms-3">Upgrade Now</a>
+            <a href="premium.php" class="btn btn-warning fw-bold ms-3">Upgrade Now</a>
         </div>
         <?php endif; ?>
 
