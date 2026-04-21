@@ -1,0 +1,85 @@
+/* Import a clean, modern Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa; /* Matches Bootstrap's bg-light, but ensures consistency */
+}
+
+/* =========================================
+   Navbar Styling
+   ========================================= */
+.navbar {
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    letter-spacing: -0.5px; /* Gives the logo a sleeker look */
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #0d6efd !important; /* Bootstrap primary color */
+}
+
+/* =========================================
+   Buttons
+   ========================================= */
+.btn {
+    border-radius: 8px; /* Slightly rounder than default Bootstrap */
+    padding: 0.6rem 1.5rem;
+    font-weight: 500;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover lift effect for all buttons */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* =========================================
+   Cards (Used for Dashboard & Stats)
+   ========================================= */
+.card {
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.05); /* Softer border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Make stats and dashboard cards float slightly on hover */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* =========================================
+   Premium Banner Styling
+   ========================================= */
+.alert-warning {
+    background-color: #fff8e6;
+    border: none;
+    border-left: 5px solid #ffc107; /* Highlighted left border */
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.15);
+}
+
+/* Sidebar Links */
+.list-group-item {
+    border: none;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+}
+
+.list-group-item.active {
+    background-color: #0d6efd;
+    border-radius: 8px !important;
+}
