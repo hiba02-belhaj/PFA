@@ -470,10 +470,9 @@ include 'includes/header.php';
                 <div class="check-item"><i class="bi bi-check-circle-fill text-warning"></i> Faster document verification</div>
                 <div class="check-item"><i class="bi bi-check-circle-fill text-warning"></i> 24/7 priority messaging</div>
                 <div class="check-item"><i class="bi bi-check-circle-fill text-warning"></i> Dedicated support agent</div>
-                <button class="btn btn-warning w-100 mt-4 rounded-3 fw-bold py-2 shadow-sm"
-                        onclick="alert('Redirecting to secure payment gateway...')">
+                <a href="premium.php" class="btn btn-warning w-100 mt-4 rounded-3 fw-bold py-2 shadow-sm d-block text-center">
                     Upgrade to Premium
-                </button>
+                </a>
             </div>
         </div>
     </div>
